@@ -47,6 +47,7 @@ h3 {
     border: 2px solid #e34627;
     color: #ff0606;
     background-color: #f6bb9e;
+    border-radius: 10px;
 }
 .round{
     border-radius: 50%;
@@ -70,6 +71,13 @@ h3 {
 }
 h1,header,nav,footer{
     text-align: center;
+}
+.h{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94d1b6;
+    border-left: 10px solid #ebfc7e;
+    border-radius: 5px 0 0 5px;
 }
 .more{
     text-align: right;
@@ -104,6 +112,9 @@ section+section{
     float: right;
     margin-left: 20px;
 }
+.img-round{
+    border-radius: 50%;
+}
 .clear{
     clear: both;
 }
@@ -116,4 +127,9 @@ a[target="mailto:"]::after{
     content: url(img/ico_blank.png);
     margin-left: 5px;
     vertical-align: middle;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
