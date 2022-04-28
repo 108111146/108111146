@@ -3,12 +3,9 @@
 body {
     background-color: #FFAAA1;
     color: rgb(112, 32, 218);
-    margin: 0px;
     background-image: url(img/bg.png);
     background-repeat: repeat-x;
-    background-position: right top;
-    background-attachment: fixed;
-    background-size: 50px 70px ;
+
 }
 
 h1 {
