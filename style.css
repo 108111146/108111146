@@ -3,8 +3,6 @@
 body {
     background-color: #FFAAA1;
     color: rgb(112, 32, 218);
-    background-image: url(img/bg.png);
-    background-repeat: repeat-x;
 
 }
 
@@ -132,4 +130,27 @@ a[target="mailto:"]::after{
     content: "";
     display: block;
     clear: both;
+}
+
+nav{
+    background-color: rgb(246, 189, 119);
+    text-align: center;
+}
+nav ul{
+    margin: 0px;
+}
+nav li{
+    list-style-type:none;
+    display:inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+nav li a:hover{
+    background-color: aquamarine;
+    color: white;
+    transition: backgorund-color 2s linear,color 2s ease-in-out;
 }
