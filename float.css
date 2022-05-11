@@ -5,17 +5,22 @@ header{
 aside{
     height: 200px;
     background-color: #EB63E2;
-    width: 50%;
+    width: 20%;
     float:left;
 }
 section{
     height: 200px;
     background-color: #B44ED4;
-    width: 50%;
+    width: 80%;
     float: right;
 }
 footer{
     height: 100px;
     background-color: #F65E5B;
     clear: both;
+}
+.post{
+    text-align: left;
+    padding: 10px;
+    float: left;
 }

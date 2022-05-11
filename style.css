@@ -88,6 +88,8 @@ h1,header,nav,footer{
 }
 section+section{
     margin-top: 80px;
+    float: right;
+ 
 }
 #contents > section + section{
     margin-top: 80px;
@@ -153,4 +155,9 @@ nav li a:hover{
     background-color: aquamarine;
     color: white;
     transition: backgorund-color 2s linear,color 2s ease-in-out;
+}
+.post{
+    text-align: center;
+    padding: 10px;
+    float: left;
 }
