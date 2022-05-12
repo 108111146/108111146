@@ -24,3 +24,23 @@ footer{
     padding: 10px;
     float: left;
 }
+nav{
+    background-color: rgb(246, 189, 119);
+    text-align: center;
+}
+nav li{
+    list-style-type:none;
+    display:inline-block;
+}
+nav li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+nav li a:hover{
+    background-color: aquamarine;
+    color: white;
+    transition: backgorund-color 2s linear,color 2s ease-in-out;
+}
