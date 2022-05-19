@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Loop:ital@1&display=swap');
+body{
+    background-color: #C3B3FD;
+}
 /*導覽列樣式設定*/
 body,ul{
     margin: 0px;
