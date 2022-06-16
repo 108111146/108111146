@@ -130,13 +130,7 @@ section li a:hover{
     width: 100%;
 }
 
-#menu ul li ul li ul li {
-    /* width、float繼承第二層，免設定 */
-}
 
-#menu ul li ul li ul li a {
-    /* width、float繼承第二層，免設定 */
-}
 
 /* ---------- 隱藏與顯示階層 ---------- */
 #menu ul li ul {
